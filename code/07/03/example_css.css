@@ -1,0 +1,38 @@
+
+.container {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.main {
+	overflow: hidden;
+}
+
+#header, #footer { 
+	width: 100%;
+	padding: 5px 0;
+	margin: 5px 0;
+	text-align:  center;
+	background-color: #CCC;
+	
+}
+
+.sidebar_one, .content, .sidebar_two {
+	float: left;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #AAA;
+}
+
+.content {
+	width: 64.5%;
+	margin: 0 3px 0 3px;
+}
+
+.sidebar_one {
+	width: 20%;
+}
+
+.sidebar_two {
+	width: 15%;
+}
