@@ -1,0 +1,206 @@
+body { background-color: #FF9; }
+
+/*----First-----*/
+
+.menu { 
+	display: block;
+	list-style: none; 
+	margin: 0; 
+	padding: 0;
+}
+.menu a { 
+	display:  block; 
+	padding: 7px 30px 7px 10px;
+	text-decoration: none; 
+	font: bold 18px Arial, Helvetica, sans-serif;
+	color: white;
+}
+.menu > li { 
+	position: relative; 
+	float: left; 
+	background-color: #AAA;
+	transition: all 0.3s linear;
+} 
+.menu > li:hover { background-color: #36393D; }
+.menu > li:hover > ul { display: inline; }
+
+#dani { width: 90px;}
+
+/*----Second-----*/
+
+.submenu_you { 
+	display: none; 
+	position: absolute; 
+	top: 36px;
+	left: 0; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 75px;
+}
+.submenu_you > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_you > li:hover { background-color: #36393D; }
+
+
+.submenu_dani { 
+	display: none; 
+	position: absolute; 
+	top: 36px;
+	left: 0; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+}
+.submenu_dani > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_dani > li:hover { background-color: #36393D; }
+.submenu_dani > li:hover > ul { display: inline; }
+
+
+.click { 
+	display: none; 
+	position: absolute; 
+	top: 36px;
+	left: 0; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 225px;
+}
+.click > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.click > li:hover { background-color: #36393D; }
+.click > li:hover > ul { display: inline; }
+
+/*----Third-----*/
+
+
+.submenu_b1o { 
+	display: none; 
+	position: absolute; 
+	top: 0px;
+	left: 90px; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+.submenu_b1o > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_b1o > li:hover { background-color: #36393D; }
+.submenu_b1o > li:hover > ul { display: inline; }
+
+
+.submenu_konan { 
+	display: none; 
+	position: absolute; 
+	top: 0px;
+	left: 90px; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.submenu_konan > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_konan > li:hover { background-color: #36393D; }
+.submenu_konan > li:hover > ul { display: inline; }
+
+
+.submenu_baron { 
+	display: none; 
+	position: absolute; 
+	top: 0px;
+	left: 90px; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.submenu_baron > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_baron > li:hover { background-color: #36393D; }
+
+/*----Fourth-----*/
+
+.submenu_b1o_male { 
+	display: none; 
+	position: absolute; 
+	top: 0px;
+	left: 150px; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 130px;
+}
+.submenu_b1o_male > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_b1o_male > li:hover { background-color: #36393D; }
+
+
+.submenu_konan_male { 
+	display: none; 
+	position: absolute; 
+	top: 0px;
+	left: 150px; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 130px;
+}
+.submenu_konan_male > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_konan_male > li:hover { background-color: #36393D; }
+
+
+.submenu_konan_female { 
+	display: none; 
+	position: absolute; 
+	top: 0px;
+	left: 150px; 
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 130px;
+}
+.submenu_konan_female > li {
+	position: relative;
+	background-color: #AAA;
+	transition: all 0.3s linear;
+}
+.submenu_konan_female > li:hover { background-color: #36393D; }
+
+/*--------------Image-----------------*/
+
+
+img {
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	z-index: -1;
+	opacity: 0.6;
+}
