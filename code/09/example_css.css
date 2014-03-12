@@ -1,0 +1,30 @@
+
+.block {display: block;}
+
+form > fieldset, #submit {margin: 10px;}
+
+#male, #female {display: inline;}
+#male {margin-right: 10px;}
+
+#gender_label, #country_label, #github_label, #music_label {
+	margin: 20px 0 0 0;
+}
+
+.music_taste {margin: 0; }
+
+
+
+
+#q1 {
+	width: 330px;
+	font-size: 18px;
+	margin: 25px auto;
+}
+
+#BackToForm {position: absolute; left: 48%;}
+#BackToForm {bottom: 75px;}
+
+#what {width: 350px; margin: 0 auto;}
+
+#description {width: 320px; height: 30px; margin: 5px;}
+
