@@ -1,7 +1,7 @@
 <html> 
 	<head>
 	
-		<title> Web Design Course - Lecture 08 - Task 02 </title>	
+		<title> Web Design Course - Lecture 09 - Task 01 </title>	
 
 		<link rel="stylesheet" type="text/css" href="example_css.css" media="screen" > 
 
